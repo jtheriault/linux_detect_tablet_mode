@@ -5,10 +5,10 @@ modes:
   laptop:
     # - xinput enable "Wacom Pen and multitouch sensor Finger"
     - xinput enable "AT Translated Set 2 keyboard"
-    - xinput enable "SynPS/2 Synaptics TouchPad"
-    - xinput enable "TPPS/2 IBM TrackPoint"
+    - xinput enable "SYNA8006:00 06CB:CD8B Touchpad"
+    - xinput enable "TPPS/2 ALPS TrackPoint"
   tablet:
     # - xinput disable "Wacom Pen and multitouch sensor Finger"
     - xinput disable "AT Translated Set 2 keyboard"
-    - xinput disable "SynPS/2 Synaptics TouchPad"
-    - xinput disable "TPPS/2 IBM TrackPoint"
+    - xinput disable "SYNA8006:00 06CB:CD8B Touchpad"
+    - xinput disable "TPPS/2 ALPS TrackPoint"
